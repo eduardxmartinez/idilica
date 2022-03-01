@@ -57,6 +57,8 @@ main {
 }
 
 .main-text {
+    display: grid;
+    place-content: center;
     font-size: var(--large);
     border: solid 1px;
     padding: 50px;
