@@ -61,7 +61,7 @@ main {
     place-content: center;
     font-size: var(--large);
     border: solid 1px;
-    padding: 50px;
+    padding: 5vw;
     background-color: var(--blanco);
 }
 
