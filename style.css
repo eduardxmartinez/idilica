@@ -42,9 +42,7 @@ header {
     place-content: center;
     justify-items: center;
 }
-.header-title {
-    font-size: var(--small);
-}
+
 .header-logo {
     width: 90px;
     height: 37px;
