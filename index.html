@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Idilica</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="./font /flaticon.css">
+    <link rel="stylesheet" type="text/css" href="./font/flaticon.css">
 </head>
 
 <body>
@@ -15,9 +15,31 @@
         <div class="header-content">
             <img src="./assets/logo.svg" alt="Logo Idilica" class="header-logo" width="90px">
             <p class="header-title">By Andrea Noriega</p>
-            <img src="./assets/menu.svg" alt="menu" class="header-menu">
+            <img src="./assets/menu.svg" alt="menu" class="header-menu header-menu-open">
+            <img src="./assets/close.svg" alt="menu" class="header-menu header-menu-close">
         </div>
     </header>
+    <nav class="nav">
+        <div class="modal-menu">
+            <ul class="menu-list">
+                <li>
+                    <a href="/" class="link">Inicio</a>
+                </li>
+                <li>
+                    <a href="/" class="link">Colecciones</a>
+                </li>
+                <li>
+                    <a href="/" class="link">Nosotros</a>
+                </li>
+                <li>
+                    <a href="/" class="link">Blog</a>
+                </li>
+                <li>
+                    <a href="/" class="link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <main>
         <video autoplay muted loop class="main-video" src="./assets/video.mp4"></video>
         <p class="main-text">Encuentra tu vestido ideal</p>
@@ -35,8 +57,8 @@
     </section>
     <footer>
         <section class="about">
-            <a href="/" class="link">Info</a> 
-            <a href="/" class="link">Ubicación</a> 
+            <a href="/" class="link">Info</a>
+            <a href="/" class="link">Ubicación</a>
             <a href="/" class="link">Contacto</a>
         </section>
         <section class="icons">
@@ -45,6 +67,7 @@
         </section>
         <a href="/" class="link">outlook@oficial.com</a>
     </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>
