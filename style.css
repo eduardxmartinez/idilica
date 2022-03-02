@@ -11,8 +11,8 @@
     --rosa: #DDBEB9;
     --cafe: #DECCBE;
     --blanco: #F9F6ED;
-    --small: 16px;
-    --medium: 20px;
+    --small: 12px;
+    --medium: 18px;
     --large: 24px;
 }
 * {
@@ -34,14 +34,21 @@ header {
     background-color: var(--blanco);
 }
 
-.title {
+.header-content {
     width: 100%;
     height: 100%;
     display: grid;
     place-content: center;
+    justify-items: center;
+}
+.header-title {
+    font-size: var(--small);
+}
+.header-logo {
+    width: 90px;
 }
 
-.menu {
+.header-menu {
     position: absolute;
     height: 5vh;
     right: 2.5vh;
@@ -52,19 +59,23 @@ main {
     display: grid;
     height: 90vh;
     place-content: center;
-    background: var(--blanco);
     border-top: 1px solid black;
+    background-color: black;
+    background-image: url("./assets/video.mp4");
+    background-position: center;
+    background-size: auto;
 }
 
 .main-text {
     display: grid;
     place-content: center;
-    font-size: var(--medium);
+    font-size: var(--large);
     border: solid 1px;
     padding: 5vw;
     background-color: var(--blanco);
     text-align: center;
     text-justify: center;
+    opacity: 0.5;
 }
 
 .slider {
