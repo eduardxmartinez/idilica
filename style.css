@@ -28,7 +28,6 @@ html {
 body {
     position: relative;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 header {
     width: 100%;
@@ -135,7 +134,7 @@ footer {
     width: 100%;
     height: auto;
     display: grid;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     place-content: center;
     justify-items: center;
     font-size: var(--small);
@@ -170,7 +169,7 @@ footer {
     display: grid;
     place-items: center;
     background-color: var(--blanco);
-    border: 1px solid black;
+    border-top: 1px solid black;
     font-size: var(--large);
 }
 
@@ -180,7 +179,7 @@ footer {
 }
 
 .menu-list li {
-margin: 50px auto 50px auto;
+margin: 80px auto 80px auto;
 }
 .link {
     list-style: none;

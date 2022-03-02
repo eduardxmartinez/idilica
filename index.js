@@ -11,9 +11,10 @@ function openMenu() {
   body.style.overflowY = "hidden";
   navOpen.style.display = "none";
   navClose.style.display = "block";
-  modal.style.zIndex = "2";
+  modal.style.zIndex = "1";
 }
 function closeMenu() {
+  body.style.overflowY = "scroll";
   navClose.style.display = "none";
   navOpen.style.display = "block";
   modal.style.zIndex = "0";
