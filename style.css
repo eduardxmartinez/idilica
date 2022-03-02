@@ -63,13 +63,14 @@ main {
     border: solid 1px;
     padding: 5vw;
     background-color: var(--blanco);
+    text-align: center;
+    text-justify: center;
 }
 
 .slider {
     height: 400px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-direction: row;
     overflow-x: scroll;
     position: relative;
