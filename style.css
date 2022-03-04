@@ -64,70 +64,6 @@ header {
 .header-menu-close {
     display: none;
 }
-main {
-    position: relative;
-    display: grid;
-    height: 600px;
-    place-content: center;
-    border-top: 1px solid black;
-    background-color: black;
-    overflow: hidden;
-}
-
-.main-video {
-    z-index: 0;
-    position: absolute;
-    display: grid;
-    place-self: center;
-    height: 100%;
-}
-
-.main-text {
-    display: grid;
-    place-content: center;
-    font-size: var(--large);
-    border: solid 1px;
-    padding: 5vw;
-    background-color: var(--blanco);
-    text-align: center;
-    text-justify: center;
-    opacity: 0.5;
-}
-
-.slider {
-    height: 420px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    position: relative;
-    scroll-snap-type: x mandatory;
-    border-top: 1px solid black;
-}
-
-
-.slider-item{
-    margin: 60px;
-    height: 300px;
-    min-width: 300px;
-    display: grid;
-    place-content: center;
-    font-size: var(--medium);
-    border: 1px solid black;
-    scroll-snap-align: start center;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.20);
-}
-
-.slider::after {
-  content: "a";
-  width: 100px;
-  height: 1px;
-  left: 100%;
-  top: 0px;
-  opacity: 0;
-}
 
 footer {
     width: 100%;
@@ -162,11 +98,11 @@ footer {
 }
 
 .nav {
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 .modal-menu {
-    z-index: 0;
+    z-index: 1;
     position: absolute;
     width: 100%;
     height: 1000px;
