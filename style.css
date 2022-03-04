@@ -24,11 +24,12 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--blanco);
-    overflow-x: hidden;
+    height: 100%;
+    overflow: hidden;
 }
 body {
+    height: 100%;
     position: relative;
-    overflow-x: hidden;
 }
 header {
     position: absolute;

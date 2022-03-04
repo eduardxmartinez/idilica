@@ -2,7 +2,7 @@
 const navClose = document.querySelector(".header-menu-close");
 const navOpen = document.querySelector(".header-menu-open");
 const modal = document.querySelector(".modal-menu");
-const body = document.querySelector("body");
+const body = document.querySelector("html");
 
 navClose.addEventListener("click", closeMenu);
 navOpen.addEventListener("click", openMenu);
