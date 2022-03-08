@@ -54,10 +54,6 @@ main {
     font-size: var(--small);
     margin-bottom: 0;
 }
-footer {
-    position: absolute;
-    bottom: 0;
-}
 
 .menu-list-2 {
     font-weight: 700;
