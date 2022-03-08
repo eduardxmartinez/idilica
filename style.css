@@ -26,6 +26,7 @@ html {
     background-color: var(--blanco);
     height: 100%;
     overflow: hidden;
+    overflow-x: scroll;
 }
 body {
     height: 100%;
@@ -76,18 +77,18 @@ footer {
     width: 100%;
     height: auto;
     display: grid;
-    margin-bottom: 20px;
     place-content: center;
     justify-items: center;
     font-size: var(--small);
     border-top: 1px solid black;
+    padding-bottom: 25px;
 }
 
 .about {
     display: flex;
     justify-content: space-evenly;
     width: 300px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .about a {
@@ -96,8 +97,8 @@ footer {
 }
 
 .icons {
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .icon {
@@ -131,9 +132,6 @@ footer {
 margin: 50px auto 80px auto;
 }
 
-.menu-list-1 {
-    font-weight: 700;
-}
 .link {
     list-style: none;
     text-decoration: none;
