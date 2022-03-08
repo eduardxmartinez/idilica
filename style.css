@@ -49,6 +49,26 @@ header {
     justify-items: center;
 }
 
+.back-button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 25px;
+    text-align: center;
+    text-justify: center;
+    font-size: var(--large);
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: var(--blanco);
+}
+
+.back-button a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
 .header-logo {
     width: 90px;
     height: 37px;
