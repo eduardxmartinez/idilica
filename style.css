@@ -25,8 +25,6 @@ html {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--blanco);
     height: 100%;
-    overflow: hidden;
-    overflow-x: scroll;
 }
 body {
     height: 100%;
@@ -103,6 +101,7 @@ footer {
 
 .icon {
     margin: 5px;
+    text-decoration: none;
 }
 
 .nav {
@@ -134,6 +133,5 @@ margin: 50px auto 80px auto;
 
 .link {
     list-style: none;
-    text-decoration: none;
     color: black;
 }
