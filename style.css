@@ -93,7 +93,7 @@ header {
 
 footer {
     width: 100%;
-    height: auto;
+    height: 110px;
     display: grid;
     place-content: center;
     justify-items: center;

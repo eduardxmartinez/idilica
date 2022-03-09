@@ -1,0 +1,53 @@
+:root{
+    /* Colores */
+    --rosa: #DDBEB9;
+    --cafe: #DECCBE;
+    --blanco: #F9F6ED;
+    --small: 12px;
+    --medium: 18px;
+    --large: 24px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.article {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.article img {
+    width: 90%;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.article p {
+    font-size: small;
+}
+
+.menu-list-4 {
+    font-weight: 700;
+}
+
+.section-title-container {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.section-title {
+    font-size: var(--medium);
+    color: var(--blanco);
+}

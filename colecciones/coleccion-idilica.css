@@ -25,8 +25,9 @@ main {
 }
 
 .grid {
+    width: 40%;
     min-height: 220px;
-    min-width: 180px;
+    min-width: 170px;
     display: grid;
     place-items: start center;
 }
@@ -37,6 +38,7 @@ main {
 
 .img-grid {
     min-height: 180px;
+    height: auto;
     width: 100%;
     display: grid;
     place-content: center;
